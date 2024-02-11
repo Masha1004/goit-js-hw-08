@@ -94,7 +94,7 @@ gallery.append(...galleryList);
 const instance = basicLightbox.create('');
 const element = instance.element();
 
-const getModalContent = url => `<img src=${url} width="800" height="600">`;
+const getModalContent = url => `<img src=${url} width="1112" height="640">`;
 
 gallery.addEventListener('click', event => {
   if (event.target.nodeName === 'IMG') {
